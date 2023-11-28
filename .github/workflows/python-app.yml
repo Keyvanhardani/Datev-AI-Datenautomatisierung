@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ['3.x']
+        python-version: ['3.12']
 
     name: Python ${{ matrix.python-version }} sample
 
